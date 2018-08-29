@@ -17,6 +17,7 @@ node {
         // when running in multi-branch job, one must issue this command
          println('Hello 1')
          println(JWT_KEY_CRED_ID)
+         println(env.JWT_CRED_ID_DH)
         checkout scm
     }
 
