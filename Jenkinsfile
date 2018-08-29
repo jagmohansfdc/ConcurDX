@@ -32,7 +32,7 @@ node {
            // rmsg = sh returnStdout: true, script: "${toolbelt}/sfdx force:org:create --definitionfile config/project-scratch-def.json --json --setdefaultusername"
            // need to pull out assigned username
               if (isUnix()) {
-                rmsg = sh returnStdout: true, script: "${toolbelt}/sfdx force:org:create --definitionfile config/enterprise-scratch-def.json --json --setdefaultusername"
+                rmsg = sh returnStdout: true, script: "${toolbelt}/sfdx force:org:create --definitionfile config/project-scratch-def.json --json --setdefaultusername"
               }else{
                    rmsg = bat returnStdout: true, script: "\"${toolbelt}\" force:org:create --definitionfile config/project-scratch-def.json --json --setdefaultusername"
               }
