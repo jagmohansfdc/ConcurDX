@@ -22,9 +22,9 @@ node {
     }
 
     withCredentials([file(credentialsId: JWT_KEY_CRED_ID, variable: 'jwt_key_file')]) {
-         println('Hello 2')
+         
         stage('Create Scratch Org') {
-
+        println('Creating Scratch Org')
             rc = sh returnStatus: true, script: "${toolbelt}/sfdx force:auth:jwt:grant --clientid ${CONNECTED_APP_CONSUMER_KEY} --username ${HUB_ORG} --jwtkeyfile ${jwt_key_file} --setdefaultdevhubusername --instanceurl ${SFDC_HOST}"
             if (rc != 0) { error 'hub org authorization failed' }
 
@@ -39,7 +39,7 @@ node {
             printf rmsg
             def jsonSlurper = new JsonSlurperClassic()
             def robj = jsonSlurper.parseText(rmsg)
-            println('Hello 3')
+            
             println(robj.status)
            // if (robj.status ! "ok") { error 'org creation failed: ' + robj.message }
             SFDC_USERNAME=robj.result.username
@@ -48,6 +48,7 @@ node {
         }
 
         stage('Push To Test Org') {
+            println('Pushing code to Scratch org')
             rc = sh returnStatus: true, script: "${toolbelt}/sfdx force:source:push --targetusername ${SFDC_USERNAME}"
             if (rc != 0) {
                 error 'push failed'
@@ -60,6 +61,7 @@ node {
         }
 
         stage('Run Apex Test') {
+             println('Running apex test')
             sh "mkdir -p ${RUN_ARTIFACT_DIR}"
             timeout(time: 120, unit: 'SECONDS') {
                 rc = sh returnStatus: true, script: "${toolbelt}/sfdx force:apex:test:run --testlevel RunLocalTests --outputdir ${RUN_ARTIFACT_DIR} --resultformat tap --targetusername ${SFDC_USERNAME}"
