@@ -73,9 +73,10 @@ node {
         }
          stage('Delete scratch Org') {
             println('Deleting Scratch org Start')
-            rc = sh returnStatus: true, script: "${toolbelt}/sfdx force:org:delete --targetusername ${SFDC_USERNAME}"
+            rc = sh returnStatus: true, script: "${toolbelt}/sfdx force:org:delete --targetusername ${SFDC_USERNAME} -p"
             if (rc != 0) {
-                error 'push failed'
+                println('Failed to Deleting Scratch org ')
+                error 'delete failed'
             }
             println('Deleting Scratch org End')
         }
