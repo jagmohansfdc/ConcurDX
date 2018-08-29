@@ -33,7 +33,9 @@ node {
             printf rmsg
             def jsonSlurper = new JsonSlurperClassic()
             def robj = jsonSlurper.parseText(rmsg)
-            if (robj.status ! "ok") { error 'org creation failed: ' + robj.message }
+            rintln('Hello 3')
+            println(robj.status)
+           // if (robj.status ! "ok") { error 'org creation failed: ' + robj.message }
             SFDC_USERNAME=robj.result.username
             robj = null
 
