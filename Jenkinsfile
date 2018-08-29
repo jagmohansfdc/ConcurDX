@@ -16,6 +16,7 @@ node {
     stage('checkout source') {
         // when running in multi-branch job, one must issue this command
          println('Hello 1')
+         println(JWT_KEY_CRED_ID)
         checkout scm
     }
 
