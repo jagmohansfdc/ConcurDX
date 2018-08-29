@@ -1,5 +1,5 @@
 {
-    "orgName": "SAP Concur",
+    "orgName": "Jenkins Concur",
     "edition": "Developer",
     "orgPreferences" : {
         "enabled": ["S1DesktopEnabled"]
