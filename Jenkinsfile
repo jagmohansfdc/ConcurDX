@@ -32,6 +32,7 @@ node {
            // rmsg = sh returnStdout: true, script: "${toolbelt}/sfdx force:org:create --definitionfile config/project-scratch-def.json --json --setdefaultusername"
            // need to pull out assigned username
               if (isUnix()) {
+                  println('Before Creating Scratch Org')
                 rmsg = sh returnStdout: true, script: "${toolbelt}/sfdx force:org:create --definitionfile config/project-scratch-def.json --json --setdefaultusername"
               }else{
                    rmsg = bat returnStdout: true, script: "\"${toolbelt}\" force:org:create --definitionfile config/project-scratch-def.json --json --setdefaultusername"
@@ -69,6 +70,14 @@ node {
                     error 'apex test run failed'
                 }
             }
+        }
+         stage('Delete scratch Org') {
+            println('Deleting Scratch org Start')
+            rc = sh returnStatus: true, script: "${toolbelt}/sfdx force:org:delete --targetusername ${SFDC_USERNAME}"
+            if (rc != 0) {
+                error 'push failed'
+            }
+            println('Deleting Scratch org End')
         }
 
         stage('collect results') {
