@@ -7,6 +7,15 @@ private class mytest {
         system.debug('***Hello World 6');
         System.assertEquals(demo.getAppVersion(), '1.0.0');
         // Uncomment the following line to cause a build failure
-         System.assert(false);
+      //   System.assert(false);
+    }
+    
+     @isTest
+    static void myUnitTest_II() {
+        myclass demo = new myclass();
+        system.debug('***Hello World 6');
+       // System.assertEquals(demo.getAppVersion(), '1.0.0');
+        // Uncomment the following line to cause a build failure
+        // System.assert(false);
     }
 }

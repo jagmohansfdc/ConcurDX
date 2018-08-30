@@ -1,0 +1,137 @@
+[
+    [
+        "C:\\SAPDemo\\SFDC_003\\ConcurDX\\force-app",
+        {
+            "state": "n",
+            "sourcePath": "C:\\SAPDemo\\SFDC_003\\ConcurDX\\force-app",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1535658716327,
+            "changeTime": 1535658716327,
+            "contentHash": "b28b7af69320201d1cf206ebf28373980add1451",
+            "isWorkspace": false,
+            "isArtifactRoot": true
+        }
+    ],
+    [
+        "C:\\SAPDemo\\SFDC_003\\ConcurDX\\force-app\\main",
+        {
+            "state": "n",
+            "sourcePath": "C:\\SAPDemo\\SFDC_003\\ConcurDX\\force-app\\main",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1535658716327,
+            "changeTime": 1535658716327,
+            "contentHash": "7505d64a54e061b7acd54ccd58b49dc43500b635",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SAPDemo\\SFDC_003\\ConcurDX\\force-app\\main\\default",
+        {
+            "state": "n",
+            "sourcePath": "C:\\SAPDemo\\SFDC_003\\ConcurDX\\force-app\\main\\default",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1535658716329,
+            "changeTime": 1535658716329,
+            "contentHash": "1adaa84dc07a16d34ede5b9a70713ff832a0f853",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SAPDemo\\SFDC_003\\ConcurDX\\force-app\\main\\default\\classes",
+        {
+            "state": "n",
+            "sourcePath": "C:\\SAPDemo\\SFDC_003\\ConcurDX\\force-app\\main\\default\\classes",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1535658716332,
+            "changeTime": 1535658716332,
+            "contentHash": "fe211d0716ae37924976ab477d320a66b1333d1e",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SAPDemo\\SFDC_003\\ConcurDX\\force-app\\main\\default\\classes\\myclass.cls",
+        {
+            "state": "n",
+            "sourcePath": "C:\\SAPDemo\\SFDC_003\\ConcurDX\\force-app\\main\\default\\classes\\myclass.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 183,
+            "modifiedTime": 1535658716330,
+            "changeTime": 1535658716330,
+            "contentHash": "2af7ffcb50c4f65b38bef1109ccb25ae8dad801f",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SAPDemo\\SFDC_003\\ConcurDX\\force-app\\main\\default\\classes\\myclass.cls-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\SAPDemo\\SFDC_003\\ConcurDX\\force-app\\main\\default\\classes\\myclass.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 179,
+            "modifiedTime": 1535658716331,
+            "changeTime": 1535658716331,
+            "contentHash": "5dba4d8d1d7ec0e924d941c2ab6e8f8963f526c1",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SAPDemo\\SFDC_003\\ConcurDX\\force-app\\main\\default\\classes\\mytest.cls",
+        {
+            "state": "n",
+            "sourcePath": "C:\\SAPDemo\\SFDC_003\\ConcurDX\\force-app\\main\\default\\classes\\mytest.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 329,
+            "modifiedTime": 1535658716332,
+            "changeTime": 1535658716332,
+            "contentHash": "ee0e05c6179831178d870ba7311d429907d63837",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SAPDemo\\SFDC_003\\ConcurDX\\force-app\\main\\default\\classes\\mytest.cls-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\SAPDemo\\SFDC_003\\ConcurDX\\force-app\\main\\default\\classes\\mytest.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 179,
+            "modifiedTime": 1535658716333,
+            "changeTime": 1535658716333,
+            "contentHash": "5dba4d8d1d7ec0e924d941c2ab6e8f8963f526c1",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SAPDemo\\SFDC_003\\ConcurDX",
+        {
+            "state": "n",
+            "sourcePath": "C:\\SAPDemo\\SFDC_003\\ConcurDX",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1535658716333,
+            "changeTime": 1535658716333,
+            "contentHash": "fa400572d8607f0ebfca731c1d6cfe362f6e7f2e",
+            "isWorkspace": true,
+            "isArtifactRoot": false
+        }
+    ]
+]
