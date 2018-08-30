@@ -32,14 +32,14 @@
     [
         "C:\\SAPDemo\\SFDC_003\\ConcurDX\\force-app\\main\\default",
         {
-            "state": "u",
             "sourcePath": "C:\\SAPDemo\\SFDC_003\\ConcurDX\\force-app\\main\\default",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1535658998986,
             "changeTime": 1535658998986,
-            "contentHash": "2ed1966858a69d044a020a30defd95645b188ea7"
+            "contentHash": "2ed1966858a69d044a020a30defd95645b188ea7",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -48,7 +48,7 @@
             "sourcePath": "C:\\SAPDemo\\SFDC_003\\ConcurDX\\force-app\\main\\default\\classes",
             "isDirectory": true,
             "size": 0,
-            "modifiedTime": 1535658716332,
+            "modifiedTime": 1535658998980,
             "changeTime": 1535658716332,
             "contentHash": "fe211d0716ae37924976ab477d320a66b1333d1e",
             "isMetadataFile": false,
@@ -90,14 +90,14 @@
     [
         "C:\\SAPDemo\\SFDC_003\\ConcurDX\\force-app\\main\\default\\classes\\mytest.cls",
         {
-            "state": "u",
             "sourcePath": "C:\\SAPDemo\\SFDC_003\\ConcurDX\\force-app\\main\\default\\classes\\mytest.cls",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 618,
             "modifiedTime": 1535658998980,
             "changeTime": 1535658998980,
-            "contentHash": "72236f5d1ed27dfe3b727641a22567656a29eb53"
+            "contentHash": "72236f5d1ed27dfe3b727641a22567656a29eb53",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -137,179 +137,179 @@
             "sourcePath": "C:\\SAPDemo\\SFDC_003\\ConcurDX\\force-app\\main\\default\\objects\\Account\\fields\\testbox__c.field-meta.xml",
             "isDirectory": false,
             "isMetadataFile": true,
-            "size": 326,
-            "modifiedTime": 1535658998852,
-            "changeTime": 1535658998852,
-            "contentHash": "405f6a85595897035c9b7f27b7f553d5e304a70e"
+            "size": 325,
+            "modifiedTime": 1535659999235,
+            "changeTime": 1535659999235,
+            "contentHash": "8b2ca2aa9f116cf15776a340fae2c9fbcfddfe71"
         }
     ],
     [
         "C:\\SAPDemo\\SFDC_003\\ConcurDX\\force-app\\main\\default\\layouts\\Account-Account Layout.layout-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\SAPDemo\\SFDC_003\\ConcurDX\\force-app\\main\\default\\layouts\\Account-Account Layout.layout-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 9581,
             "modifiedTime": 1535658998903,
             "changeTime": 1535658998903,
-            "contentHash": "56d79377c6dc32a758d6f52502c10d4f9f685bef"
+            "contentHash": "56d79377c6dc32a758d6f52502c10d4f9f685bef",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\SAPDemo\\SFDC_003\\ConcurDX\\force-app\\main\\default\\layouts\\Account-Account %28Support%29 Layout.layout-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\SAPDemo\\SFDC_003\\ConcurDX\\force-app\\main\\default\\layouts\\Account-Account %28Support%29 Layout.layout-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 9629,
             "modifiedTime": 1535658998941,
             "changeTime": 1535658998941,
-            "contentHash": "94de436ef566f8094028b5761d90f3147ed2d45f"
+            "contentHash": "94de436ef566f8094028b5761d90f3147ed2d45f",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\SAPDemo\\SFDC_003\\ConcurDX\\force-app\\main\\default\\layouts\\Account-Account %28Sales%29 Layout.layout-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\SAPDemo\\SFDC_003\\ConcurDX\\force-app\\main\\default\\layouts\\Account-Account %28Sales%29 Layout.layout-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 9581,
             "modifiedTime": 1535658998962,
             "changeTime": 1535658998962,
-            "contentHash": "e1c526877825d62cf8510c2e9d55c1bba975798a"
+            "contentHash": "e1c526877825d62cf8510c2e9d55c1bba975798a",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\SAPDemo\\SFDC_003\\ConcurDX\\force-app\\main\\default\\layouts\\Account-Account %28Marketing%29 Layout.layout-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\SAPDemo\\SFDC_003\\ConcurDX\\force-app\\main\\default\\layouts\\Account-Account %28Marketing%29 Layout.layout-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 9629,
             "modifiedTime": 1535658998972,
             "changeTime": 1535658998972,
-            "contentHash": "a8b9f0528d5167655b091c3fe5aa831e9d03ccd7"
+            "contentHash": "a8b9f0528d5167655b091c3fe5aa831e9d03ccd7",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\SAPDemo\\SFDC_003\\ConcurDX\\force-app\\main\\default\\profiles\\Custom%3A Support Profile.profile-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\SAPDemo\\SFDC_003\\ConcurDX\\force-app\\main\\default\\profiles\\Custom%3A Support Profile.profile-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 5037,
             "modifiedTime": 1535658998992,
             "changeTime": 1535658998992,
-            "contentHash": "68c1549b5bf7d4672733a52fad7269629e58ee71"
+            "contentHash": "68c1549b5bf7d4672733a52fad7269629e58ee71",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\SAPDemo\\SFDC_003\\ConcurDX\\force-app\\main\\default\\profiles\\Admin.profile-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\SAPDemo\\SFDC_003\\ConcurDX\\force-app\\main\\default\\profiles\\Admin.profile-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 18100,
             "modifiedTime": 1535658999023,
             "changeTime": 1535658999023,
-            "contentHash": "784fb283910c1012570c8622ae4373babdd19a80"
+            "contentHash": "784fb283910c1012570c8622ae4373babdd19a80",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\SAPDemo\\SFDC_003\\ConcurDX\\force-app\\main\\default\\profiles\\Custom%3A Sales Profile.profile-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\SAPDemo\\SFDC_003\\ConcurDX\\force-app\\main\\default\\profiles\\Custom%3A Sales Profile.profile-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 4697,
             "modifiedTime": 1535658999035,
             "changeTime": 1535658999035,
-            "contentHash": "48685d0a6d6903aea0dcba5558f5861a3a514b5b"
+            "contentHash": "48685d0a6d6903aea0dcba5558f5861a3a514b5b",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\SAPDemo\\SFDC_003\\ConcurDX\\force-app\\main\\default\\profiles\\Custom%3A Marketing Profile.profile-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\SAPDemo\\SFDC_003\\ConcurDX\\force-app\\main\\default\\profiles\\Custom%3A Marketing Profile.profile-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 4701,
             "modifiedTime": 1535658999043,
             "changeTime": 1535658999043,
-            "contentHash": "5416031ed63c08c505bf15434fd37f3127614c2e"
+            "contentHash": "5416031ed63c08c505bf15434fd37f3127614c2e",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\SAPDemo\\SFDC_003\\ConcurDX\\force-app\\main\\default\\objects\\Account\\fields",
         {
-            "state": "u",
             "sourcePath": "C:\\SAPDemo\\SFDC_003\\ConcurDX\\force-app\\main\\default\\objects\\Account\\fields",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1535658998846,
             "changeTime": 1535658998846,
-            "contentHash": "f0530db6194723e036d6e9fde849e2ff12862d09"
+            "contentHash": "f0530db6194723e036d6e9fde849e2ff12862d09",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "C:\\SAPDemo\\SFDC_003\\ConcurDX\\force-app\\main\\default\\objects\\Account",
         {
-            "state": "u",
             "sourcePath": "C:\\SAPDemo\\SFDC_003\\ConcurDX\\force-app\\main\\default\\objects\\Account",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1535658998836,
             "changeTime": 1535658998836,
-            "contentHash": "70f132fe13e692866a539996a6b9a05b46076a07"
+            "contentHash": "70f132fe13e692866a539996a6b9a05b46076a07",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "C:\\SAPDemo\\SFDC_003\\ConcurDX\\force-app\\main\\default\\objects",
         {
-            "state": "u",
             "sourcePath": "C:\\SAPDemo\\SFDC_003\\ConcurDX\\force-app\\main\\default\\objects",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1535658998834,
             "changeTime": 1535658998834,
-            "contentHash": "85dfa32c97d8618d1bea083609e2c8a29845abe5"
+            "contentHash": "85dfa32c97d8618d1bea083609e2c8a29845abe5",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "C:\\SAPDemo\\SFDC_003\\ConcurDX\\force-app\\main\\default\\layouts",
         {
-            "state": "u",
             "sourcePath": "C:\\SAPDemo\\SFDC_003\\ConcurDX\\force-app\\main\\default\\layouts",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1535658998970,
             "changeTime": 1535658998970,
-            "contentHash": "e3687f65b0885128a02e534ece5e0cf3ce9f38c0"
+            "contentHash": "e3687f65b0885128a02e534ece5e0cf3ce9f38c0",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "C:\\SAPDemo\\SFDC_003\\ConcurDX\\force-app\\main\\default\\profiles",
         {
-            "state": "u",
             "sourcePath": "C:\\SAPDemo\\SFDC_003\\ConcurDX\\force-app\\main\\default\\profiles",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1535658999040,
             "changeTime": 1535658999040,
-            "contentHash": "9c367b0e719eb8c48c5b0d9cbfb5f580a4bd6717"
+            "contentHash": "9c367b0e719eb8c48c5b0d9cbfb5f580a4bd6717",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ]
 ]
