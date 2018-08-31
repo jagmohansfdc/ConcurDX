@@ -10,4 +10,10 @@ public with sharing class myclass {
     public void addNewMethod(){
         System.debug('********New Method***');
     }
+    public void addNewMethod1(){
+        System.debug('********New Method***');
+    }
+    public void addNewMethod2(){
+        System.debug('********New Method***');
+    }
 }
