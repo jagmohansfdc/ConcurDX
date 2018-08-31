@@ -80,7 +80,7 @@ node {
                 println('Failed to Deleting Scratch org ')
                 error 'delete failed'
             }
-            println('Deleting Scratch org End')
+            println('Scratch org deleted successfully!')
         }
 
         stage('collect results') {
