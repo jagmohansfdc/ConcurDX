@@ -1,0 +1,372 @@
+[
+    [
+        "/Users/i860042/ConcurDX/force-app",
+        {
+            "sourcePath": "/Users/i860042/ConcurDX/force-app",
+            "isDirectory": true,
+            "size": 96,
+            "modifiedTime": 1536956429296,
+            "changeTime": 1536956429296,
+            "contentHash": "b28b7af69320201d1cf206ebf28373980add1451",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": true
+        }
+    ],
+    [
+        "/Users/i860042/ConcurDX/force-app/main",
+        {
+            "sourcePath": "/Users/i860042/ConcurDX/force-app/main",
+            "isDirectory": true,
+            "size": 96,
+            "modifiedTime": 1536956429296,
+            "changeTime": 1536956429296,
+            "contentHash": "7505d64a54e061b7acd54ccd58b49dc43500b635",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/i860042/ConcurDX/force-app/main/default",
+        {
+            "sourcePath": "/Users/i860042/ConcurDX/force-app/main/default",
+            "isDirectory": true,
+            "size": 192,
+            "modifiedTime": 1536956429310,
+            "changeTime": 1536956429310,
+            "contentHash": "2ed1966858a69d044a020a30defd95645b188ea7",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/i860042/ConcurDX/force-app/main/default/classes",
+        {
+            "sourcePath": "/Users/i860042/ConcurDX/force-app/main/default/classes",
+            "isDirectory": true,
+            "size": 192,
+            "modifiedTime": 1536956429303,
+            "changeTime": 1536956429303,
+            "contentHash": "fe211d0716ae37924976ab477d320a66b1333d1e",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/i860042/ConcurDX/force-app/main/default/classes/myclass.cls",
+        {
+            "sourcePath": "/Users/i860042/ConcurDX/force-app/main/default/classes/myclass.cls",
+            "isDirectory": false,
+            "size": 452,
+            "modifiedTime": 1536956429297,
+            "changeTime": 1536956429297,
+            "contentHash": "f10e7e0c18aa37a5c83fb4be719a0ce944a65f43",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/i860042/ConcurDX/force-app/main/default/classes/myclass.cls-meta.xml",
+        {
+            "sourcePath": "/Users/i860042/ConcurDX/force-app/main/default/classes/myclass.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1536956429301,
+            "changeTime": 1536956429301,
+            "contentHash": "0bfc8bc49e53c8f0f6b207cf675766c0d6546ee5",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/i860042/ConcurDX/force-app/main/default/classes/mytest.cls",
+        {
+            "sourcePath": "/Users/i860042/ConcurDX/force-app/main/default/classes/mytest.cls",
+            "isDirectory": false,
+            "size": 519,
+            "modifiedTime": 1536956429302,
+            "changeTime": 1536956429302,
+            "contentHash": "a15b28fc493bf4dbb6a6385d5042024b9beca917",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/i860042/ConcurDX/force-app/main/default/classes/mytest.cls-meta.xml",
+        {
+            "sourcePath": "/Users/i860042/ConcurDX/force-app/main/default/classes/mytest.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1536956429303,
+            "changeTime": 1536956429303,
+            "contentHash": "0bfc8bc49e53c8f0f6b207cf675766c0d6546ee5",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/i860042/ConcurDX/force-app/main/default/layouts",
+        {
+            "sourcePath": "/Users/i860042/ConcurDX/force-app/main/default/layouts",
+            "isDirectory": true,
+            "size": 192,
+            "modifiedTime": 1536956429306,
+            "changeTime": 1536956429306,
+            "contentHash": "e3687f65b0885128a02e534ece5e0cf3ce9f38c0",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/i860042/ConcurDX/force-app/main/default/layouts/Account-Account %28Marketing%29 Layout.layout-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/i860042/ConcurDX/force-app/main/default/layouts/Account-Account %28Marketing%29 Layout.layout-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 9768,
+            "modifiedTime": 1536957784457,
+            "changeTime": 1536957784457,
+            "contentHash": "5af7c5db48f6b0fe66d646969f562121ef8e6f7c"
+        }
+    ],
+    [
+        "/Users/i860042/ConcurDX/force-app/main/default/layouts/Account-Account %28Sales%29 Layout.layout-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/i860042/ConcurDX/force-app/main/default/layouts/Account-Account %28Sales%29 Layout.layout-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 9720,
+            "modifiedTime": 1536957784523,
+            "changeTime": 1536957784523,
+            "contentHash": "e9289840a336a430f3913a132f4e474e82a97648"
+        }
+    ],
+    [
+        "/Users/i860042/ConcurDX/force-app/main/default/layouts/Account-Account %28Support%29 Layout.layout-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/i860042/ConcurDX/force-app/main/default/layouts/Account-Account %28Support%29 Layout.layout-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 9768,
+            "modifiedTime": 1536957784478,
+            "changeTime": 1536957784478,
+            "contentHash": "964dc785c799699bcd5ba2236720cf03388619be"
+        }
+    ],
+    [
+        "/Users/i860042/ConcurDX/force-app/main/default/layouts/Account-Account Layout.layout-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/i860042/ConcurDX/force-app/main/default/layouts/Account-Account Layout.layout-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 9720,
+            "modifiedTime": 1536957784502,
+            "changeTime": 1536957784502,
+            "contentHash": "d5469b2b2f2b8c127c58c50e7d28d03cd3f84502"
+        }
+    ],
+    [
+        "/Users/i860042/ConcurDX/force-app/main/default/objects",
+        {
+            "sourcePath": "/Users/i860042/ConcurDX/force-app/main/default/objects",
+            "isDirectory": true,
+            "size": 96,
+            "modifiedTime": 1536956429308,
+            "changeTime": 1536956429308,
+            "contentHash": "85dfa32c97d8618d1bea083609e2c8a29845abe5",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/i860042/ConcurDX/force-app/main/default/objects/Account",
+        {
+            "sourcePath": "/Users/i860042/ConcurDX/force-app/main/default/objects/Account",
+            "isDirectory": true,
+            "size": 128,
+            "modifiedTime": 1536956429309,
+            "changeTime": 1536956429309,
+            "contentHash": "c5969b9c985ca395a81da87a6334b04dd42cfe9f",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/i860042/ConcurDX/force-app/main/default/objects/Account/fields",
+        {
+            "state": "u",
+            "sourcePath": "/Users/i860042/ConcurDX/force-app/main/default/objects/Account/fields",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 128,
+            "modifiedTime": 1536957784421,
+            "changeTime": 1536957784421,
+            "contentHash": "5d6033b2cdc90c4e3283b7a9f7591a9b02efef59"
+        }
+    ],
+    [
+        "/Users/i860042/ConcurDX/force-app/main/default/objects/Account/fields/testbox__c.field-meta.xml",
+        {
+            "sourcePath": "/Users/i860042/ConcurDX/force-app/main/default/objects/Account/fields/testbox__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 325,
+            "modifiedTime": 1536956429309,
+            "changeTime": 1536956429309,
+            "contentHash": "8b2ca2aa9f116cf15776a340fae2c9fbcfddfe71",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/i860042/ConcurDX/force-app/main/default/objects/Account/validationRules",
+        {
+            "sourcePath": "/Users/i860042/ConcurDX/force-app/main/default/objects/Account/validationRules",
+            "isDirectory": true,
+            "size": 96,
+            "modifiedTime": 1536956429309,
+            "changeTime": 1536956429309,
+            "contentHash": "cd2807db3604274c908c9f7dcbfbce13bb222c4c",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/i860042/ConcurDX/force-app/main/default/objects/Account/validationRules/Email_Required.validationRule-meta.xml",
+        {
+            "sourcePath": "/Users/i860042/ConcurDX/force-app/main/default/objects/Account/validationRules/Email_Required.validationRule-meta.xml",
+            "isDirectory": false,
+            "size": 331,
+            "modifiedTime": 1536956429309,
+            "changeTime": 1536956429309,
+            "contentHash": "21ce8af13c2d01eaf8ce3b06974c3af9e8e9ef16",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/i860042/ConcurDX/force-app/main/default/profiles",
+        {
+            "sourcePath": "/Users/i860042/ConcurDX/force-app/main/default/profiles",
+            "isDirectory": true,
+            "size": 192,
+            "modifiedTime": 1536956429314,
+            "changeTime": 1536956429314,
+            "contentHash": "9c367b0e719eb8c48c5b0d9cbfb5f580a4bd6717",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/i860042/ConcurDX/force-app/main/default/profiles/Admin.profile-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/i860042/ConcurDX/force-app/main/default/profiles/Admin.profile-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 18102,
+            "modifiedTime": 1536957784605,
+            "changeTime": 1536957784605,
+            "contentHash": "d6f22ff9a32c911593d4330f56acb03460e43324"
+        }
+    ],
+    [
+        "/Users/i860042/ConcurDX/force-app/main/default/profiles/Custom%3A Marketing Profile.profile-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/i860042/ConcurDX/force-app/main/default/profiles/Custom%3A Marketing Profile.profile-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 4703,
+            "modifiedTime": 1536957784575,
+            "changeTime": 1536957784575,
+            "contentHash": "204fc510d5c6e7919be0c6f08594db6f77a24336"
+        }
+    ],
+    [
+        "/Users/i860042/ConcurDX/force-app/main/default/profiles/Custom%3A Sales Profile.profile-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/i860042/ConcurDX/force-app/main/default/profiles/Custom%3A Sales Profile.profile-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 4699,
+            "modifiedTime": 1536957784546,
+            "changeTime": 1536957784546,
+            "contentHash": "2515666bd4181e88188ca259ca1c88361ea83e0c"
+        }
+    ],
+    [
+        "/Users/i860042/ConcurDX/force-app/main/default/profiles/Custom%3A Support Profile.profile-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/i860042/ConcurDX/force-app/main/default/profiles/Custom%3A Support Profile.profile-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 5039,
+            "modifiedTime": 1536957784567,
+            "changeTime": 1536957784567,
+            "contentHash": "dbe0199e5d83191ada5153eb8f6af19e1126fa6d"
+        }
+    ],
+    [
+        "/Users/i860042/ConcurDX",
+        {
+            "sourcePath": "/Users/i860042/ConcurDX",
+            "isDirectory": true,
+            "size": 320,
+            "modifiedTime": 1536956429314,
+            "changeTime": 1536956429314,
+            "contentHash": "15c20651eb7a506b9141761e072ecab40fc1f79e",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": true,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/i860042/ConcurDX/force-app/main/default/objects/Account/fields/New_Field__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/i860042/ConcurDX/force-app/main/default/objects/Account/fields/New_Field__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 372,
+            "modifiedTime": 1536957784421,
+            "changeTime": 1536957784421,
+            "contentHash": "0efe05a76be959c43e10393fc538192dd3d25ae6"
+        }
+    ]
+]

@@ -11,7 +11,7 @@
     <custom>false</custom>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Account.testbox__c</field>
+        <field>Account.New_Field__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
