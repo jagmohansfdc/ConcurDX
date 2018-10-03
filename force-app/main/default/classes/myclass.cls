@@ -1,6 +1,6 @@
 public with sharing class myclass {
     public myclass() {
-    System.debug('******Jagmohan*** 15');
+    System.debug('******Jagmohan*** 16');
     addNewMethod();
     }
 
