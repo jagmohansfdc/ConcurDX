@@ -24,9 +24,9 @@ node {
     withCredentials([file(credentialsId: JWT_KEY_CRED_ID, variable: 'jwt_key_file')]) {
          
         stage('Create Scratch Org') {
-        println('################################')
+        
         println('##### Login to Dev Hub Org #####')
-        println('################################')
+        
             rc = sh returnStatus: true, script: "${toolbelt}/sfdx force:auth:jwt:grant --clientid ${CONNECTED_APP_CONSUMER_KEY} --username ${HUB_ORG} --jwtkeyfile ${jwt_key_file} --setdefaultdevhubusername --instanceurl ${SFDC_HOST}"
             if (rc != 0) { error 'hub org authorization failed' }
 
@@ -51,18 +51,18 @@ node {
         }
 
         stage('Push To Test Org') {
-            println('#######################################')
+            
             println('##### Pushing code to Scratch org #####')
-            println('#######################################')
+            
             rc = sh returnStatus: true, script: "${toolbelt}/sfdx force:source:push --targetusername ${SFDC_USERNAME}"
             if (rc != 0) {
                 error 'push failed'
             }
             else
             {
-                println('##############################################')
+                
                 println('##### DX Project deployed to Scratch org #####')
-                println('##############################################')
+                
             }
             // assign permset
             /*
@@ -74,9 +74,9 @@ node {
         }
 
         stage('Run Apex Test') {
-            println('############################################')
+            
             println('##### Running apex test in Scratch org #####')
-            println('############################################')
+            
             sh "mkdir -p ${RUN_ARTIFACT_DIR}"
             timeout(time: 120, unit: 'SECONDS') {
                 rc = sh returnStatus: true, script: "${toolbelt}/sfdx force:apex:test:run --testlevel RunLocalTests --outputdir ${RUN_ARTIFACT_DIR} --resultformat tap --targetusername ${SFDC_USERNAME}"
@@ -86,9 +86,9 @@ node {
             }
         }
          stage('Delete scratch Org') {
-             println('######################################')
+             
              println('##### Deleting Scratch org Start #####')
-             println('######################################')
+             
             rc = sh returnStatus: true, script: "${toolbelt}/sfdx force:org:delete --targetusername ${SFDC_USERNAME} -p"
             if (rc != 0) {
                 println('Failed to Deleting Scratch org ')
