@@ -1,6 +1,8 @@
 public with sharing class myclass {
     public myclass() {
     System.debug('******Hackathon DX**');
+    System.debug('******Hackathon DX 1**');
+
     addNewMethod();
     }
 
